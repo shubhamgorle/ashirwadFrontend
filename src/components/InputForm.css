@@ -1,0 +1,49 @@
+
+.inputForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 5vmax; */
+    /* height: 105vh; */
+    /* background: linear-gradient(135deg, #ff6b6b, #f7d94e);
+     */
+    /* animation: backgroundAnimation 15s ease infinite; */
+    background-color: #f4f7f9;
+   
+}
+.inputForm > div{
+    background-color: white;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s ease-in-out;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5vmax 0.5vmax;
+    border-radius: 22px;
+    margin: 3vmax 5vmax;
+}
+h3{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    color: blue;
+}
+.inputForm > div input{
+    max-width: 100%;
+}
+.inputForm > div Button{
+    width: 80%;
+    background: linear-gradient(135deg, #ff6b6b, #f7d94e);
+    animation: backgroundAnimation 15s ease infinite;
+    color: blue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    margin-top: 0.6vmax;
+}   
+@media screen and (max-width:500px){
+    .inputForm > div{
+        padding: 2.5vmax;
+    }
+    .inputForm{ margin-top: 20px;}
+}
