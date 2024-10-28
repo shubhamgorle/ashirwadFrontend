@@ -46,5 +46,8 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://ashirwad-land-developers.onrender.com"
+  "proxy": "https://ashirwad-land-developers.onrender.com",
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
 }
